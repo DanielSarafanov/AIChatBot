@@ -19,8 +19,8 @@ function Header() {
         {auth?.isLoggedIn ? (
           <>
             <h1 className='cursor-pointer' onClick={() => router.push('/chat')}>Chat</h1>
-            <h1 className='cursor-pointer' onClick={async () => {
-                auth?.logout;
+            <h1 className='cursor-pointer' onClick={ () => {
+                auth.logout;
                 router.push('/');
             }}>Logout</h1>
           </>

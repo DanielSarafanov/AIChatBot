@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
 
-    <AuthProvider>
+
       <div className="bg-[#080b21] h-screen">
         
         {/* Header component, points users to login/sign up */}
@@ -15,7 +15,6 @@ export default function Home() {
         {/* Going to have a home page component with probably a logo, a descritpion and a get started component*/}
 
       </div>
-    </AuthProvider>
 
 
   );
